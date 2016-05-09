@@ -1,10 +1,6 @@
 set -ev
 
-source ~/.nvm/nvm.sh
-nvm install "$NODE_JS_VERSION"
-nvm use "$NODE_JS_VERSION"
+export NODE_JS_VERSION=6
 
-npm -g install npm
-npm -g update
+source ~/.nvm/nvm.sh && nvm install $NODE_JS_VERSION && node --version
 
-npm install
