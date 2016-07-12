@@ -1,2 +1,2 @@
-script: echo hi
-env: 42
+- 1
+- 2
