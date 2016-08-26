@@ -1,2 +1,2 @@
-language: php
-script: echo hi
+---
+language:php
