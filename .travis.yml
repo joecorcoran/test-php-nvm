@@ -8,3 +8,5 @@ notifications:
   email:
     recipients:
       - joe@travis-ci.com
+    on_cancel: always
+    on_start: always
